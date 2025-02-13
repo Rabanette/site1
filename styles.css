@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(159, 160, 159);
+}
+main{
+    padding: 20px;
+    background-color: rgb(217, 217, 217);
+    max-width: 640px;
+    min-width: 300px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+header{
+    padding-bottom: 30px;
+}
+
+.btn{
+    background-color: crimson;
+    border-style: none;
+    border-radius: 20px;
+    padding: 2%;
+    width: 60%;
+    border-top: 10px; 
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+button>a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover{
+    color: black;
+}
+
+button:hover{
+    padding: 3%;
+    width: 70%;
+}
+
+section{
+    align-items: center;
+}
+
+section.flex{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+background-color: rgb(206, 206, 206);
+text-align: center;
+width: 640px;
+margin: auto;
+font-family: roboto;
+}
+
+main{
+display: inline-block;
+background-color: rgb(240, 240, 240);
+}
+
+
+
+section.image>img{
+    max-width: 100%;
+}
+
+section.center{
+padding: 20px;
+}
+.red{
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.blue{
+    color:rgb(100, 246, 197);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+button{
+    background-color: crimson;
+    border-radius: 25px;
+    border-style: none;
+    color: aliceblue;
+    padding: 10px;
+    width: 120px;
+    text-transform: uppercase;
+}
+
+section.sorteio{
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+section.sorteio>img{
+    height: 320px;
+    padding: 20px;
+}
+
+
+
+

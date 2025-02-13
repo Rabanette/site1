@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: roboto;
+}
+
+header.maintext{
+    font-size: 17px;
+    padding-bottom: 5%;
+    padding-top: 0px;
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+    color: black;
+}
+
+header{
+    color:  rgb(255, 162, 12);
+    padding-top: 4%;
+    padding-bottom: 0px;
+    font-size: 25px;
+}
+
+section.all{
+    display: inline-block;
+    background-color: aliceblue;
+    width: auto;
+    min-width: none;
+    max-width: 500px;
+}
+
+section{
+    padding: 10px;
+}
+
+section.bgintro{
+    background-image: url(/3-newsletter-1-FLAG/images/reuniao.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.intro{
+    height: 300px;
+    width: auto;
+}
+
+button{
+    background-color: rgb(255, 162, 12);
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    box-shadow: 0.5px 2px 2px rgba(0, 0, 0, 0.628);
+}
+
+div.text{
+    text-align: left;
+    padding-bottom: 7%;
+}
+
+div.line{
+    height: 3px;
+    background-color: rgba(63, 63, 63, 0.298);
+}
+
+div.cyan{
+    font-size: 25px;
+    color: rgb(43, 79, 79);
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+div.img{
+    padding-bottom: 20px;
+}
+
+.spacing{
+    border: 3px rgba(0, 0, 0, 0.178);
+    border-style: groove;
+}
+
+div.box{
+    background-color: rgb(255, 162, 12);
+    padding: 30px;
+    font-size: 12px;
+    color: aliceblue;
+}
