@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: roboto;
+    overflow-x: hidden;
+    color: rgb(75, 75, 75);
+}
+
+main{
+    display: inline-block;
+    background-color: rgb(230, 230, 230);
+    max-width: 100%;
+}
+
+section.banner{
+    background-image: url(/6-exercicoSPEO-inicio/images/index-banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:xx-large;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+section.menu{
+    background-color:rgb(41, 41, 41);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+.underline{
+    padding: 2px;
+    margin-inline: 47%;
+    background-color: red;
+}
+
+nav{
+    padding-inline: 5%;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
+    justify-items: center;
+    column-gap: 10px;
+}
+
+.speo{
+    grid-column: 2;
+    grid-row: 2;
+}
+.destaques{
+    grid-column: 3;
+    grid-row: 2;
+}
+.actividades{
+    grid-column: 4;
+    grid-row: 2;
+}
+.membros{
+    grid-column: -1;
+    grid-row: 2;
+}
+
+nav>a{
+    text-decoration: none;
+    color:aliceblue;
+    border-bottom: 5px solid rgba(255, 0, 0, 0);
+}
+a:hover{
+    text-decoration: none;
+    color:aliceblue;
+    border-bottom: 5px solid red;
+}
+
+.line{
+    background-color: red;
+    padding: 2px;
+    margin-inline: 47%;
+}
+
+section.info h1{
+    padding-top: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+
+.destaquestitle{
+    padding-top: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+
+.noticiasline{
+    background-color: red;
+    padding: 2px;
+    margin-left: 5%;
+    margin-right: 91%;
+}
+
+.noticiastitle{
+    padding-top: 5%;
+    font-size: 45px;
+    padding-inline: 5%;
+}
+
+section.info{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(255, 255, 255);
+    text-spacing-trim: 20px;
+    padding-top: 1%;
+    font-size: 25px;
+}
+
+section.info p{
+    padding-top: 2%;
+}
+
+div{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+button.more{
+    text-transform: uppercase;
+    padding-inline: 5%;
+    height: 50px;
+    background-color: red;
+    color: aliceblue;
+}
+
+section.col{
+    padding-inline: 5%;
+    display: flex;
+}
+
+.row{
+    background-color: rgb(255, 255, 255);
+    max-width: 140px;
+}
+
+article>img{
+    width: 100%;
+
+}
