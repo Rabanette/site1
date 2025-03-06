@@ -68,7 +68,7 @@ button.black{
     color: rgb(0, 0, 0);
     background-size: cover;
     padding: 2% 2%;
-    background-image: url("/10-rwdExercicio/images/menu_icon.png");
+    background-image: url("/site1/10-rwdExercicio/images/menu_icon.png");
 }
 
 .start{
@@ -85,7 +85,7 @@ button.green{
 }
 
 .info{
-    background-image: url(/10-rwdExercicio/images/landing-page-banner.jpg);
+    background-image: url("/site1/10-rwdExercicio/images/landing-page-banner.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     min-height: 200px;
@@ -211,7 +211,7 @@ footer.socials{
         color: rgb(0, 0, 0);
         background-size: cover;
         padding: 2% 2%;
-        background-image: url("/10-rwdExercicio/images/menu_icon.png");
+        background-image: url("/site1/10-rwdExercicio/images/menu_icon.png");
     }
 
     .start{
@@ -231,7 +231,7 @@ footer.socials{
     }
     
     .info{
-        background-image: url(/10-rwdExercicio/images/landing-page-banner.jpg);
+        background-image: url("/site1/10-rwdExercicio/images/landing-page-banner.jpg");
         background-repeat: no-repeat;
         background-size:contain;
         border-radius: 0%;
@@ -382,7 +382,7 @@ footer.socials{
         color: rgb(0, 0, 0);
         background-size: cover;
         padding: 2% 2%;
-        background-image: url("/10-rwdExercicio/images/menu_icon.png");
+        background-image: url("/site1/10-rwdExercicio/images/menu_icon.png");
     }
     
     button.green{
@@ -397,7 +397,7 @@ footer.socials{
     }
     
     .info{
-        background-image: url(/10-rwdExercicio/images/landing-page-banner.jpg);
+        background-image: url("/site1/10-rwdExercicio/images/landing-page-banner.jpg");
         background-repeat: no-repeat;
         background-size:contain;    
         border-radius: 0%;
