@@ -7,11 +7,11 @@
 
 html, body{
     margin: auto;
-    max-width: 640px;
-    min-width: 520px;
+    min-width: 100%;
 }
 
 main{
+    min-width: 100%;
     display: inline-block;
 }
 
@@ -27,7 +27,6 @@ ul{
     text-align: center;
     gap: 15px;
     display: flex;
-    justify-content: space-between;
     align-items: start;
 }
 
@@ -58,7 +57,7 @@ button.white{
     border-style: solid;
     border-radius: 5px;
     color: white;
-    padding: 3px;
+    padding: 10px;
     font-size: 10px;
 }
 
@@ -70,6 +69,11 @@ button.black{
     background-size: cover;
     padding: 2% 2%;
     background-image: url("/10-rwdExercicio/images/menu_icon.png");
+}
+
+.start{
+    display: flex;
+    flex: 1;
 }
 
 button.green{
@@ -84,12 +88,17 @@ button.green{
     background-image: url(/10-rwdExercicio/images/landing-page-banner.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    min-height: 200px;
     border-radius: 5px;
     padding-inline: 5%;
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 3%;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 25px;
 }
 
 article.grids{
@@ -109,10 +118,11 @@ footer.socials{
     display: flex;
     color: rgba(255, 255, 255, 0);
     align-items: center;
+    gap: 15px;
     padding-inline: 5%;
     margin-top: 5%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: center;
 }
 
@@ -120,6 +130,8 @@ footer.socials{
     font-size: 0px;
 }
 
+
+/*home-tablet*/
 @media screen and (min-width:640px){
 
     * {
@@ -130,12 +142,14 @@ footer.socials{
     }
 
     html, body{
+        min-width: 100%;
         margin: auto;  
         overflow: auto;
         background-color: rgb(32, 32, 32);
     }
     
     main{
+        min-width: 100%;
         display: inline-block;
         background-color: white;
     }
@@ -143,22 +157,22 @@ footer.socials{
     .navigation{
         background-color: rgb(123, 209, 145);
         background-size:auto;
+        font-size: 20px;
     }
+
     
-    ul{
+    ul.mainmenu{
+        display: flex;
         list-style-type: none;
         padding: 1%;
         object-fit: cover;
         text-align: center;
         align-items: center;
-        gap: 15px;
-        display: flex;
-        justify-self: flex-start;
+        gap: 30px;
     }
-
-    li.direita{
-        display: flex;
-        justify-self: flex-end;
+    
+    .esquerda{
+        flex:1;
     }
     
     p{
@@ -183,10 +197,181 @@ footer.socials{
     button.white{
         background-color: rgba(240, 248, 255, 0);
         border-style: solid;
-        border-radius: 5px;
+        border-radius: 10px;
         color: white;
-        padding: 3px;
-        font-size: 10px;
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+    button.black{
+        display: none;
+        background-color: rgba(240, 248, 255, 0);
+        border-style: solid;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        background-size: cover;
+        padding: 2% 2%;
+        background-image: url("/10-rwdExercicio/images/menu_icon.png");
+    }
+
+    .start{
+        display: flex;
+        flex: 0;
+    }
+    
+    button.green{
+        background-color: rgba(240, 248, 255, 0);
+        border-style: solid;
+        border-radius: 5px;
+        color: rgb(123, 209, 145);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-inline: 20px;
+        font-size: 25px;
+    }
+    
+    .info{
+        background-image: url(/10-rwdExercicio/images/landing-page-banner.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        border-radius: 0%;
+        padding-inline: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: white;
+        font-size: 20px;
+        padding-bottom: 20%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    
+    article.grids{
+        padding-top: 0%;
+        padding-bottom: 5%;
+        margin-inline: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 5%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    .bottom1{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .bottom2{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .top1{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .top2{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    article.grids img{
+        min-width: 275px;
+    }
+    
+    footer.socials{
+        background-color: rgb(32, 32, 32);
+        display: flex;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        gap: 15px;
+        padding-inline: 5%;
+        margin-top: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .learn{
+        flex: 1;
+        font-size: 20px;
+    }
+
+}
+
+/*Home-desktop*/
+@media screen and (min-width:1040px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    html, body{
+        min-width: 100%;
+        margin: auto;  
+        overflow: auto;
+        background-color: rgba(32, 32, 32, 0);
+    }
+    
+    main{
+        min-width: 100%;
+        display: inline-block;
+        background-color: white;
+    }
+    
+    .navigation{
+        background-color: rgb(123, 209, 145);
+        background-size:auto;
+        font-size: 25px;
+    }
+
+    
+    ul.mainmenu{
+        display: flex;
+        list-style-type: none;
+        padding: 1%;
+        object-fit: cover;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .esquerda{
+        flex:1;
+    }
+    
+    p{
+        text-align: start;
+    }
+    
+    li{
+        display: flex; /*remove display to make menu come back*/
+    }
+
+
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);/*control colors of menu*/
+    }
+    
+    section.padding{
+        padding-inline: 5%;
+        margin-top: 5%;
+    }
+    
+    button.white{
+        background-color: rgba(240, 248, 255, 0);
+        border-style: solid;
+        border-radius: 15px;
+        color: white;
+        padding: 25px;
+        font-size: 25px;
     }
     
     button.black{
@@ -205,24 +390,30 @@ footer.socials{
         border-style: solid;
         border-radius: 5px;
         color: rgb(123, 209, 145);
-        padding: 7px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-inline: 25px;
+        font-size: 25px;
     }
     
     .info{
         background-image: url(/10-rwdExercicio/images/landing-page-banner.jpg);
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:contain;    
         border-radius: 0%;
         padding-inline: 5%;
-        padding-top: 3%;
-        padding-bottom: 3%;
+        padding-top: 5%;
         color: white;
-        font-size: 10px;
+        font-size: 35px;
         padding-bottom: 20%;
     }
     
+    h1{
+        font-size: 55px;
+    }
+    
     article.grids{
-        padding-top: 5%;
+        padding-top: 0%;
         padding-bottom: 5%;
         margin-inline: 5%;
         display: grid;
@@ -236,8 +427,26 @@ footer.socials{
         text-align: center;
     }
 
+    .bottom1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .bottom2{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .top1{
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .top2{
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+
     article.grids img{
-        width: 100%;
+        min-width: 350px;
     }
     
     footer.socials{
@@ -245,16 +454,16 @@ footer.socials{
         display: flex;
         color: rgb(255, 255, 255);
         align-items: center;
+        gap: 15px;
         padding-inline: 5%;
         margin-top: 5%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        justify-content: space-between;
-
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .learn{
-        font-size: 10px;
+        flex: 1;
+        font-size: 20px;
     }
 
 }
