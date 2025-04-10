@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-inline: 30%;
+}
+
+
+
+h1{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+article{
+    text-align: center;
+}
+
+
+/*.blocks{
+    display: grid;
+    border-radius: 2px;
+    grid-row: 5;
+    grid-column: 4;
+}*/
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    
+}
+
+section.blocks article{
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+section.blocks article > *{
+    margin: 1px 0;
+}
