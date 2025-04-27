@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.944);
+    color: rgb(255, 145, 0);
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 15px;
+    padding-inline:10px;
+}
+img{
+    max-width: 200px;
+}
