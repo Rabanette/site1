@@ -1,3 +1,5 @@
+import { livros } from "./data";
+
 let alreadyRead;
 
 
@@ -10,9 +12,7 @@ let section = document.getElementById('grid');
 
 console.log(livros[0]);
 
-
 call_article(livros);
-
 
 
 function call_article(getBooks){

@@ -1,4 +1,4 @@
-export let livros = [
+let livros = [
     {
         title: 'Angular Com Typescript',
         author: "Yakov Fain",

@@ -21,6 +21,10 @@ a{
     color: inherit; 
 }
 
+#canva{
+    width: 100%;
+}
+
 #MY-SKILLS-SECTION{
     padding-inline: 50px;
 }
