@@ -11,6 +11,28 @@ renderer.setClearColor(0x000000, 0);
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 
+/* Responsive canvas */
+
+let initialWidth = window.innerWidth;
+let initialHeight = window.innerHeight;
+
+//reloads quando windowmode
+window.addEventListener('resize', () => {
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    location.reload();
+
+
+  });
+
+  //reloads quando fullscreen
+  document.addEventListener('fullscreenchange', () => {
+    if (document.fullscreenElement) {
+      location.reload();
+    }
+  });
+
 /* CUBE MESH */
 
 let cube;
