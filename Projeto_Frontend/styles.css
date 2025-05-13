@@ -23,11 +23,10 @@ a{
 
 #canva{
     width: 100%;
-    max-width: 720px;
+    display: block;
 }
 #screen{
     width: 100%;
-    max-width: 720px;
 }
 
 #MY-SKILLS-SECTION{
@@ -55,16 +54,16 @@ a{
 #skills-frontend{
     margin-bottom: 20px;
     margin-TOP: 20px;
-    border-style: dotted;
     border-radius: 10px;
     padding: 5%;
     display: flex;
     gap: 10px;
+    border-style: dashed;
 }
 
 #skills-backend{
     margin-bottom: 20px;
-    border-style: dotted;
+    border-style: dashed;
     border-radius: 10px;
     padding: 5%;
     display: flex;
@@ -76,7 +75,7 @@ a{
 #my-experience{
     margin-bottom: 20px;
     margin-top: 40px;
-    border-style: dotted;
+    border-style: dashed;
     border-radius: 10px;
     padding: 5%;
     display: flex;
@@ -87,8 +86,16 @@ a{
 
 .line{
     padding-top: 20px;
-    border-style: dotted;
+    border-style: dashed;
     border-right: none;
     border-left: none;
     border-top: none;
+}
+.line2{
+    padding-top: 20px;
+    border-style: double;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding-inline: 50%;
 }
