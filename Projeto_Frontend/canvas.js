@@ -48,7 +48,7 @@ function rng(){
 
 
 /*INSTANCES-OF-CUBE*/
-let maxstorage = 9;
+let maxstorage = 25;
 let arrayxpos = new Array(maxstorage);
 let arrasize = new Array(maxstorage);
 
@@ -82,10 +82,10 @@ rng();
 
 function animatecubes(cubecopy, index) {
     cubecopy.position.z = -13; 
-	cubecopy.rotation.x += 0.01;
-	cubecopy.rotation.y += 0.01;
+	cubecopy.rotation.x += 0.005;
+	cubecopy.rotation.y += 0.005;
     cubecopy.position.x = arrayxpos[index];
-    cubecopy.position.y += 0.02;
+    cubecopy.position.y += 0.01;
     cubecopy.scale.set(arrasize[index], arrasize[index], arrasize[index]); /*tamanho do cubo*/
     renderer.render( scene, camera );
 
@@ -96,7 +96,7 @@ function animatecubes(cubecopy, index) {
     }
 
 if(cubecopy.position.y > 13) {
-   cubecopy.position.y = -12; 
+   cubecopy.position.y = -11; 
    arrasize[index] = randomsize();
    arrayxpos[index] = randomposi();
 }
