@@ -1,0 +1,1 @@
+let canva = document.getElementById('PCcanvas');
