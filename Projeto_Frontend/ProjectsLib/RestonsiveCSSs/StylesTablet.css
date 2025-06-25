@@ -1,5 +1,14 @@
-
+@media (min-width: 768px){
 /*---------------STYLES----------------------*/
+
+body{
+    font-size: large;
+}
+
+img{
+    max-width: 340px;
+    min-width: 340px;
+}
 
 #menu{
     display: flex;
@@ -34,16 +43,18 @@ a{
     padding-inline: 10vw;
 }
 #MY-EXPERIENCE{
+    border-style: dashed;
+        border-radius: 10px;
     padding-inline: 10vw;
 }
 
 #skills-title{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 1px;
     display: flex;
     justify-content: center;
 }
-#experience-subtitles{
+.experience-subtitles{
     display: flex;
     justify-content: center;
     border-style: dashed;
@@ -53,12 +64,22 @@ a{
     border-right-style: none;
 }
 
+.skill{
+    border-color: rgb(233, 133, 1);
+    border-style:solid;
+    padding: 2vw;
+    padding-inline: 3vw;
+    font-size: 30px;
+}
+
 #skills-frontend{
     margin-bottom: 20px;
     margin-TOP: 20px;
     border-radius: 10px;
     padding: 5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     border-style: dashed;
 }
@@ -69,15 +90,17 @@ a{
     border-radius: 10px;
     padding: 5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row-reverse;
     gap: 10px;
 }
 
 
 #my-experience{
+    margin-inline: 2%;
     margin-bottom: 20px;
     margin-top: 40px;
-    border-style: dashed;
     border-radius: 10px;
     padding: 5%;
     display: flex;
@@ -168,7 +191,7 @@ a{
 }
 
 #socials-reversed{
-
+    min-width: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding: 5%;
@@ -178,7 +201,7 @@ a{
 }
 
 .social-pic{
-    max-width: 30px;
+    min-width: 40px;
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
@@ -188,13 +211,15 @@ a{
     background-color:  rgba(0, 0, 0, 0);;
     color: rgb(233, 133, 1);
     border-style:solid;
-    padding: 3vw;
+    padding: 2vw;
     border-radius: 15px;
     padding-inline: 9vw;
+    cursor: pointer;
 }
 
 .btn:hover{
-   padding: 5vw;
-   padding-inline: 15vw;
+   padding: 2.2vw;
+   padding-inline: 10vw;
    cursor: pointer;
+}
 }

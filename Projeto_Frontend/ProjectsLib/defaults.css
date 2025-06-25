@@ -10,12 +10,11 @@ body{
     background-color: rgba(0, 0, 0, 0.944);
     color: rgb(233, 133, 1);
     font-family: "Jersey 10", sans-serif;
-    font-size: normal;
     font-weight: 100;
     overflow-x: hidden;
     letter-spacing: 1px;
 }
 img{
-    max-width: 200px;
     width: 100%;
 }
+

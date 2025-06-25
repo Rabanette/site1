@@ -1,0 +1,224 @@
+@media (min-width: 240px){
+/*---------------STYLES----------------------*/
+
+body{
+    font-size:small;
+}
+
+img{
+    max-width: 200px;
+}
+
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 5px;
+    padding-inline:10px;
+}
+
+#menu h3{
+    margin-right: auto;
+}
+
+#li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+#canva{
+    width: 100%;
+    display: block;
+}
+#screen{
+    width: 100%;
+}
+
+#MY-SKILLS-SECTION{
+    padding-inline: 10vw;
+}
+#MY-EXPERIENCE{
+    border-style: dashed;
+        border-radius: 10px;
+    padding-inline: 10vw;
+}
+
+#skills-title{
+    margin-top: 40px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+}
+.experience-subtitles{
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    padding-inline: 20px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.skill{
+    border-color: rgb(233, 133, 1);
+    border-style:solid;
+    padding: 2vw;
+    padding-inline: 3vw;
+    font-size: 15px;
+}
+
+#skills-frontend{
+    margin-bottom: 20px;
+    margin-TOP: 20px;
+    border-radius: 10px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-style: dashed;
+}
+
+#skills-backend{
+    margin-bottom: 20px;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+
+#my-experience{
+    margin-inline: 2%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#MY-CONTACTS{
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#MY-CONTACTS.cell2{
+    display: flex;
+    border-right: none;
+    border-bottom: none;
+    flex-direction: column;
+    align-items: center;
+}
+#MY-CONTACTS.cell3{
+    border-bottom: none;
+}
+
+.line{
+    box-sizing: border-box;
+    padding-top: 20px;
+    border-style: dashed;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-inline: 5vw;
+}
+.line2{
+    padding-top: 20px;
+    border-style: double;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding-inline: 50%;
+}
+
+#CONTACTS-grid{
+    margin-inline: 10vw;
+    border-style: dashed;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 110px);
+      grid-template-areas:
+    "about about socials"
+    "about about socials"
+    "email email socials"
+    "email email socials";
+}
+
+#CONTACTS{
+    margin-top: 40px;
+    padding-bottom: 4vw;
+}
+
+.cell1{
+    grid-area: about;
+    justify-content: center;
+    text-align: center;
+}
+.cell2{
+    grid-area: socials;
+}
+.cell3{
+    grid-area: email;
+}
+
+#socials{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+#socials-reversed{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-pic{
+    min-width: 30px;
+    max-width: 30px;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn{
+    background-color:  rgba(0, 0, 0, 0);;
+    color: rgb(233, 133, 1);
+    border-style:solid;
+    padding: 3vw;
+    border-radius: 15px;
+    padding-inline: 9vw;
+    cursor: pointer;
+}
+
+.btn:hover{
+   padding: 5vw;
+   padding-inline: 15vw;
+   cursor: pointer;
+}
+}

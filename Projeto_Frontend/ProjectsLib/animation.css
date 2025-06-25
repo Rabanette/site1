@@ -1,5 +1,5 @@
 
-p{
+.type{
     width: 0%;
     overflow: hidden;
     animation: type 2s steps(34) forwards;
