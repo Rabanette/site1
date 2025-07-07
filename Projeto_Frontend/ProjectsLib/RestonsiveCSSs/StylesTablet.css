@@ -78,6 +78,15 @@ a{
     font-size: 30px;
 }
 
+#FrontendIMG{
+    padding-left: 10vw;
+}
+
+#BackendIMG{
+    padding-right: 10vw;
+}
+
+
 #skills-frontend{
     margin-bottom: 20px;
     margin-TOP: 20px;

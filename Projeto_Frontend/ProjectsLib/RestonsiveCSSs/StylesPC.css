@@ -6,7 +6,7 @@ body{
 }
 
 img:not(.favicon .social-pic){
-    max-width: 720px;
+    max-width: 520px;
     min-width: 50px;
 }
 
@@ -81,6 +81,14 @@ a{
     padding: 2vw;
     padding-inline: 3vw;
     font-size: 45px;
+}
+
+#FrontendIMG{
+    padding-left: 10vw;
+}
+
+#BackendIMG{
+    padding-right: 10vw;
 }
 
 #skills-frontend{

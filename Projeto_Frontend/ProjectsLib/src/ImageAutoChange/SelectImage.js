@@ -1,4 +1,4 @@
-import imagesArray from './imagesArray';
+import { log } from 'three/src/nodes/TSL.js';
 import array from './imagesArray';
 
 function delay(ms) {
@@ -6,18 +6,28 @@ function delay(ms) {
 }
 
 let i = 1;
+let e = 6;
 
-async function SelectImage(img){
-
+async function SelectImage(){
+    console.log(array[i]);
     let image = document.getElementById('FrontendIMG');
+    let image2 = document.getElementById('BackendIMG');
+    while(i < array.length){
+      
+      image.setAttribute('src', array[i].ImageURL);
+      image2.setAttribute('src', array[e].ImageURL);
+  
+      await delay(3000);
+  
+      i++;
+      e++;
 
-    image.src = imagesArray[i];
-
-    await delay(2000);
-
-    i++;
-
-    SelectImage(imagesArray[i]);
+      if (i>= 6){
+        i = 0;
+      }
+      if (e >= 11){
+        e = 6;
+      }
+    }
 }
-
-SelectImage(imagesArray[i]);
+SelectImage();
