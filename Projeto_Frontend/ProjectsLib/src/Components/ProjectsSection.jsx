@@ -16,7 +16,7 @@ export default function ProjectsSection(){
                 
                 <h1 className="experience-subtitles">{array.Name}</h1>
                 <header>{array.Date}</header>
-                {array.Description}
+                <p>{array.Description}</p>
                 <img src={`${array.ImageURL}`} alt=""/>
                 <div className="line2"></div>
                 

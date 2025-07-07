@@ -16,7 +16,7 @@ export default[
     {
         Name:'Crain',
         Date:'2023',
-        Description:'In 2024 i made this site as my finals project in school to showcase my HTML and CSS skills as well my own video game utilizing C#.',
-        ImageURL:'https://placehold.co/300x200',
+        Description:'In 2023 i made a VR videogame using unity 2021 as my gameengineand Blender for modeling and Visual Studio for scripting.',
+        ImageURL:'./images/icon.png',
     }
     ];

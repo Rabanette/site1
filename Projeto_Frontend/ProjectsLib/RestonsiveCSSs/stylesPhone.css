@@ -5,8 +5,9 @@ body{
     font-size:small;
 }
 
-img{
+img:not(.favicon  .social-pic){
     max-width: 200px;
+    min-width: 30px;
 }
 
 #menu{
@@ -15,6 +16,11 @@ img{
     gap: 10px;
     margin-top: 5px;
     padding-inline:10px;
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    font-size: large;
 }
 
 #menu h3{
@@ -28,6 +34,12 @@ img{
 a{
     text-decoration: none;
     color: inherit; 
+}
+
+.favicon{
+   max-width: 10px;
+   height: auto;
+   background-color: rgb(14, 14, 14);
 }
 
 #canva{
@@ -180,20 +192,24 @@ a{
 }
 
 #socials{
-
+    min-width: 30px;
+    max-width: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
     gap: 10px;
 }
 
 #socials-reversed{
+    max-width: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding: 5%;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
