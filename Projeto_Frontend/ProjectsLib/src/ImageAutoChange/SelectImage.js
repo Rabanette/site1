@@ -1,4 +1,4 @@
-
+import { log } from 'three/src/nodes/TSL.js';
 import array from './imagesArray';
 
 function delay(ms) {
