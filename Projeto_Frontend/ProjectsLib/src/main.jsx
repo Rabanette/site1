@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 import ProjectsSection from './Components/ProjectsSection.jsx'
 import './index.css'
