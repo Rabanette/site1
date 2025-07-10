@@ -1,4 +1,5 @@
-import { GLTFLoader } from './three/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from 'three';
+
 
 const loader = new GLTFLoader();
 const canvas = document.getElementById('canva');
