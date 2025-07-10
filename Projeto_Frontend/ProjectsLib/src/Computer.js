@@ -26,7 +26,6 @@ const light = new THREE.HemisphereLight(0xffffff, 0x444444);
 scene.add(light);
 
 loader.load('/models/myModel.glb', (gltf) => {
-  // ✅ Add model to your existing scene
   scene.add(gltf.scene);
 
   // Optionally: position, scale, rotate the model
