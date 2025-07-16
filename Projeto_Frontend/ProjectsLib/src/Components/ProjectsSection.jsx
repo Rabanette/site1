@@ -1,7 +1,7 @@
 import array from '../Lib';
-import '../../../ProjectsLib/RestonsiveCSSs/stylesPhone.css';
-import '../../../ProjectsLib/RestonsiveCSSs/stylesTablet.css';
-import '../../../ProjectsLib/RestonsiveCSSs/stylesPC.css';
+import '../RestonsiveCSSs/StylesPC.css';
+import '../RestonsiveCSSs/stylesPhone.css';
+import '../RestonsiveCSSs/StylesTablet.css';
 import '../../../ProjectsLib/defaults.css';
 
 

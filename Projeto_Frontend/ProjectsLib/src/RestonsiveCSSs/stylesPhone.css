@@ -1,4 +1,4 @@
-@media (min-width: 240px){
+@media (max-width: 767px){
 /*---------------STYLES----------------------*/
 
 body{
@@ -20,11 +20,18 @@ img:not(.favicon  .social-pic){
     position: fixed;
     width: 100%;
     margin: 0px;
-    font-size: large;
+    font-size: small;
 }
 
 #menu h3{
+    margin-right: 10px;
+}
+
+#en{
     margin-right: auto;
+}
+#pt{
+    margin-right: 2px;
 }
 
 #li{

@@ -1,5 +1,5 @@
 
-import array from './imagesArray';
+import array from './imagesArray.js';
 
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
