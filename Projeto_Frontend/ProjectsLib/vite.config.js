@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'https://rabanette.github.io/site1/',
-  plugins: [react(),],
+  base:'/site1/',
+  plugins: [react(),  deploy()],
 })
