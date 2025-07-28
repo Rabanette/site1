@@ -1,8 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base:'/site1/',
-  plugins: [react(),  deploy()],
+  base: '/site1/',  
+  plugins: [
+    react(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'Images',  
+          dest: ''        
+        }
+      ]
+    })
+  ]
 })
