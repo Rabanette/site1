@@ -51,25 +51,37 @@
 
 .pulse{
     display: inline-block;
-    animation: pulse 1.5s infinite;
+    animation: pulse 2s infinite;
 }
 
 
 @keyframes pulse{
   0%, 100% {
-    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 10px 5px rgba(255, 145, 0, 0.547);
   }
   50% {
-    box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.9);
+    box-shadow: 0 0 20px 10px rgba(255, 153, 0, 0.9);
   }
 }
 
 .btn:hover{
-     animation: glow var(--ease-elastic-in-1) 600ms infinite alternate;
+    animation: pulse 1s infinite;
 }
 
 @keyframes glow {
   50% {
     box-shadow: 0 0 40px hsl(12, 100%, 60%);
   }
+}
+.transition{
+    animation: transition 4s infinite;
+}
+
+@keyframes transition {
+    25%, 75%{
+        transform: scale3d(1, 1, 1);
+    }
+    0%, 100%{
+        transform: scale3d(0, 0, 0);
+    }
 }

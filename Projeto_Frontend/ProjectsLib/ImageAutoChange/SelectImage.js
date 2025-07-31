@@ -17,7 +17,7 @@ async function SelectImage(){
       image.setAttribute('src', array[i].ImageURL);
       image2.setAttribute('src', array[e].ImageURL);
   
-      await delay(3000);
+      await delay(4000);
   
       i++;
       e++;
