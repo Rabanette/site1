@@ -17,6 +17,6 @@ export default[
         Name:'Before the Storm',
         Date:'2023',
         Description:'In 2023 i made a VR game using unity 2021 as my game engine and Blender for modeling and Visual Studio for scripting.',
-        ImageURL:'/images/icon.png',
+        ImageURL:'./images/icon.png',
     }
     ];

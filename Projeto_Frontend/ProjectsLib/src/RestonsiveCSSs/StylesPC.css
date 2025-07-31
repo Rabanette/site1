@@ -239,17 +239,17 @@ a{
 }
 
 .btn{
-    background-color:  rgba(0, 0, 0, 0);;
+    background-color:  rgba(0, 0, 0, 0);
     color: rgb(233, 133, 1);
     border-style:solid;
-    padding: 2vw;
+    padding: 1vw;
     border-radius: 15px;
     padding-inline: 9vw;
     cursor: pointer;
 }
 
 .btn:hover{
-   padding: 2.2vw;
+   padding: 1.2vw;
    padding-inline: 10vw;
    cursor: pointer;
 }
