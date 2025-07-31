@@ -218,6 +218,7 @@ a{
     flex-direction: row-reverse;
     gap: 10px;
     font-size: small;
+    flex-wrap: wrap;
 }
 
 #socials-reversed{
@@ -230,6 +231,7 @@ a{
     align-items: center;
     gap: 10px;
     font-size: small;
+    flex-wrap: wrap;
 }
 
 .social-pic{
